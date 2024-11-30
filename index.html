@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Logic Circuit Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Digital Logic Circuit Simulator</h1>
+
+        <!-- AND Gate -->
+        <section class="gate">
+            <h2>AND Gate</h2>
+            <div class="gate-image">
+                <img id="https://media.geeksforgeeks.org/wp-content/uploads/20240403180605/AND-Gate-in-Digital-Electronics-22.png">
+            </div>
+            <div class="inputs">
+                <button class="input-btn" id="and-input-a">0</button>
+                <button class="input-btn" id="and-input-b">0</button>
+            </div>
+            <div class="output">
+                <p>Output: <span id="and-output">0</span></p>
+            </div>
+        </section>
+
+        <!-- OR Gate -->
+        <section class="gate">
+            <h2>OR Gate</h2>
+            <div class="gate-image">
+                <img id="https://media.geeksforgeeks.org/wp-content/uploads/20241014113543355764/2-input-Or-gate.png">
+            </div>
+            <div class="inputs">
+                <button class="input-btn" id="or-input-a">0</button>
+                <button class="input-btn" id="or-input-b">0</button>
+            </div>
+            <div class="output">
+                <p>Output: <span id="or-output">0</span></p>
+            </div>
+        </section>
+
+        <!-- NOT Gate -->
+        <section class="gate">
+            <h2>NOT Gate</h2>
+            <div class="gate-image">
+                <img id="https://media.geeksforgeeks.org/wp-content/uploads/20240328125616/NOT-Gate.png">
+            </div>
+            <div class="inputs">
+                <button class="input-btn" id="not-input">0</button>
+            </div>
+            <div class="output">
+                <p>Output: <span id="not-output">1</span></p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
